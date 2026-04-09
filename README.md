@@ -1,110 +1,100 @@
-💰 Expense & Budget Analyzer
-A comprehensive, GUI-based Expense Tracking and Budget Management System developed using Python with Tkinter. This application helps users manage their personal finances, track expenses across multiple budgets, and visualize spending patterns through interactive charts.
+# 💰 Expense & Budget Analyzer
 
-📌 Project Overview
-The Expense & Budget Analyzer is a desktop application that provides users with a complete financial management solution. The system enables users to create multiple budgets, track expenses in real-time, receive budget warnings, and visualize their spending patterns through various chart types.
+## 📖 Description
 
-The application supports user authentication, multi-budget management, expense tracking across multiple categories, and comprehensive reporting features. All data is persisted locally using JSON files, ensuring privacy and offline accessibility.
+A GUI-based desktop application for managing personal finances, tracking expenses, and analyzing budget usage. The system allows users to monitor spending patterns, receive budget alerts, and visualize data through interactive charts.
 
-🎯 Problem Statement
-Managing personal finances effectively is challenging for many individuals due to:
+---
 
-Lack of structured tracking: People struggle to track daily expenses systematically
+## 🎯 Problem Statement
 
-No budget visibility: Difficulty in understanding how spending compares to planned budgets
+Managing personal finances is difficult due to:
 
-Missing warning systems: No alerts when approaching or exceeding budget limits
+* Lack of structured expense tracking
+* Poor visibility of budget vs actual spending
+* No warning system for overspending
+* Difficulty understanding data without visualization
 
-Poor visualization: Raw numbers don't effectively communicate spending patterns
+---
 
-Multiple budget needs: Users need to manage different types of budgets (personal, travel, emergency, etc.)
+## 💡 Solution
 
-Data persistence concerns: Spreadsheets get lost or corrupted easily
+This application provides:
 
-💡 Solution
-This Expense & Budget Analyzer solves these problems by providing:
+* Real-time expense tracking and budget monitoring
+* Automated alerts when spending exceeds limits
+* Visual insights using charts (pie, bar, line)
+* Secure local data storage using JSON
 
-Intuitive GUI: User-friendly interface for easy expense and budget management
+---
 
-Real-time budget tracking: Automatic calculation of spent amounts and remaining budgets
+## 🚀 Key Features
 
-Smart warning system: Alerts when budget usage reaches 75% and 90% thresholds
+### 🔐 User Management
 
-Multiple visualization options: Pie charts, bar charts, and line charts for different analytical needs
+* User registration and login system
+* Secure data handling with user-specific storage
 
-Flexible budget types: Support for Personal, Travel, Emergency, Shopping, and Custom budget types
+### 📊 Budget Management
 
-Secure data persistence: JSON-based local storage with user authentication
+* Create and manage multiple budgets
+* Monthly planning and tracking
+* Real-time budget vs expense comparison
 
-Export capabilities: Generate CSV and TXT reports for external analysis
+### 💸 Expense Tracking
 
-🚀 Features
-🔐 User Management
-User registration and login system
+* Add, edit, and delete expenses
+* Categorize spending (Food, Travel, Rent, etc.)
+* Automatic date tracking
 
-Secure password protection
+### 📈 Analysis & Reporting
 
-Individual user data isolation
+* Budget usage analysis
+* Expense summary by category
+* Export reports (CSV, TXT)
 
-Persistent user profiles
+### 📊 Data Visualization
 
-📊 Budget Management
-Create multiple budgets with custom names
+* Pie Chart → Category distribution
+* Bar Chart → Budget vs Actual
+* Line Chart → Spending trends
 
-Support for 5 budget types + custom types
+### ⚠️ Warning System
 
-Monthly budget planning (January-December)
+* Alerts at 75% and 90% budget usage
+* Daily spending recommendations
 
-Real-time budget vs actual comparison
+---
 
-Delete unwanted budgets with confirmation
+## 🛠️ Tech Stack
 
-💸 Expense Tracking
-Add expenses to specific budgets
+* Python
+* Tkinter (GUI)
+* JSON (Data Storage)
+* Matplotlib (Visualization)
 
-Categorize expenses (Food, Travel, Rent, Entertainment, Others)
+---
 
-Automatic date stamping with DD-MM-YYYY format
+## ▶️ How to Run
 
-Edit existing expenses
+1. Install dependencies:
+   pip install matplotlib
 
-Delete individual expenses
+2. Run the application:
+   python main_file.py
 
-View all expenses grouped by budget
+---
 
-📈 Analysis & Reporting
-Budget analysis with detailed breakdown
+## 📂 Project Structure
 
-Expense summary by category
+* main_file.py → Main application logic
+* README.md → Project documentation
+* JSON files → Data storage
 
-Daily budget calculation based on remaining days
+---
 
-Percentage-based usage tracking
+## 👨‍💻 Author
 
-Export reports to CSV and TXT formats
+Srijit Bhattacharjee
+LinkedIn: https://www.linkedin.com/in/srijit-bhattacharjee
 
-📊 Data Visualization
-Pie Chart: Expense distribution by category
-
-Bar Chart: Budget vs Actual comparison
-
-Line Chart: Spending trends over time
-
-⚠️ Warning System
-Automatic alerts at 75% budget usage
-
-Critical alerts at 90% budget usage
-
-Daily budget recommendations
-
-Comprehensive warning dashboard
-
-🛠 Technologies Used
-Technology	Purpose
-Python 3	Core programming language
-Tkinter	GUI framework for desktop interface
-JSON	File-based data storage and persistence
-Matplotlib	Data visualization and chart generation
-CSV	Export functionality for reports
-Datetime	Date handling and calculations
-OS	File system operations
